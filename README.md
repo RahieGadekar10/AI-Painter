@@ -1,4 +1,5 @@
 # AI-Painter
+Virtual Painter created using Mediapipe and OpenCV. It uses the Mediapipe Hand Detection and Tracking to detect and track the Hand in real time and OpenCV using which we can draw on screen. 
 
 ## Install
 
@@ -31,11 +32,22 @@
   Python Command : python painter.py
   ```
 ## Demo
-![Demo]
+```bash
+Method : 
+- Index Finger --> Selection Mode 
+- Index Finger + Middle Finger --> Drawing Mode
+- Black COlor --> Eraser
+- Press 'c' to Clear Screen 
+```
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Demo](https://user-images.githubusercontent.com/68743282/148642469-0d9911d9-7253-414f-b733-fe7ef20d0a64.gif)
 
 ## Mediapipe Hand Landmarks
 <img src = "https://google.github.io/mediapipe/images/mobile/hand_landmarks.png"></img>
 
+## Explore more on Mediapipe 
+```bash 
+https://google.github.io/mediapipe/
+```
 ## Authors
 
 - [@RahieGadekar10](https://www.github.com/RahieGadekar10)
